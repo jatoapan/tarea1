@@ -1,0 +1,8 @@
+<aspectj>
+    <weaver>
+        <include within="Singleton_AOP"/>
+    </weaver>
+    <aspects>
+        <aspect name="Singleton_AOP.LoggingAspect"/>
+    </aspects>
+</aspectj>
