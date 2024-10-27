@@ -1,6 +1,7 @@
-package Adapter_OOP.modelo.Readers;
+package ec.edu.espol;
 
 public class EpubAdapter implements Reader{
+
     private EpubReader reader ;
     
     public EpubAdapter(EpubReader reader){
@@ -11,4 +12,5 @@ public class EpubAdapter implements Reader{
     public void readBook() {
         reader.readEpub();
     }
+    
 }

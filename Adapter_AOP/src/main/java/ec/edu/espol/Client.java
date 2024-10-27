@@ -1,6 +1,4 @@
-package Adapter_OOP.modelo;
-
-import Adapter_OOP.modelo.Readers.Reader;
+package ec.edu.espol;
 
 public class Client {
 
